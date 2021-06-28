@@ -7,6 +7,7 @@
 @import 'mixins';
 @import 'blocs/sidepanel';
 @import 'blocs/menu';
+@import 'blocs/about';
 
 * {
     font-family: 'Poppins', sans-serif;
@@ -17,4 +18,11 @@
 .container {
     margin: 0 auto;
     width: 1140px;
+}
+
+.divider {
+    width: 60px;
+    height: 3px;
+    background-color: $main-color;
+    margin-top: 25px;
 }
