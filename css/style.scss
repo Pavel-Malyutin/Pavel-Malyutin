@@ -1,5 +1,11 @@
 @import 'bootstrap-reboot.min';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+@import 'variables';
+@import 'blocs/promo';
+@import 'blocs/title';
+@import 'blocs/button';
+@import 'mixins';
+@import 'blocs/sidepanel';
 
 * {
     font-family: 'Poppins', sans-serif;
@@ -7,3 +13,7 @@
     padding: 0;
 }
 
+.container {
+    margin: 0 auto;
+    width: 1140px;
+}
