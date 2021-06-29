@@ -402,11 +402,15 @@
                         </div>
 
                         <div class="contacts__textarea">
-                            <textarea name="text" id="text"></textarea>
+                            <textarea name="text" id="text"  placeholder="Тестовая форма, SMTP не подключен, сообщение отправлено не будет!"></textarea>
                             <label for="text">Ваше сообщение</label>
                         </div>
                         <div class="contacts__triggers">
-                            <button class="contacts__btn btn">Отправить сообщение</button>
+                            <button class="contacts__btn btn btn_submit">Отправить сообщение</button>
+                            <div class="contacts__policy">
+                                <input required type="checkbox">
+                                <span>Я согласен(а) с <a href="policy.html">политикой конфиденциальности</a></span>
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -414,7 +418,9 @@
         </div>
     </section>
 
-    <script src="js/script.js"></script>
 
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

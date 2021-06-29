@@ -850,6 +850,7 @@ template {
   grid-template: 45px 190px 45px/repeat(2, 280px);
   justify-content: space-between;
   row-gap: 30px;
+  column-gap: 35px;
 }
 .contacts__form label {
   display: block;
@@ -861,6 +862,20 @@ template {
   margin-bottom: 0;
   top: -9px;
   left: 12px;
+}
+.contacts__triggers {
+  grid-column: 1/3;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 35px;
+}
+.contacts__policy {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+.contacts__policy input {
+  margin-right: 10px;
 }
 .contacts__input {
   position: relative;
