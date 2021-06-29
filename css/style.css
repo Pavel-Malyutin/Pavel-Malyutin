@@ -406,7 +406,7 @@ template {
 }
 
 .hamburger {
-  position: absolute;
+  position: fixed;
   top: 20px;
   right: 30px;
   height: 21px;
@@ -801,6 +801,92 @@ template {
   grid-column: 1/3;
   font-size: 12px;
   line-height: 18px;
+}
+
+.contacts {
+  padding: 120px 0 90px 0;
+}
+.contacts__wrapper {
+  padding: 0 35px 0 52px;
+  display: grid;
+  grid-template-columns: 400px 585px;
+  justify-content: space-between;
+}
+.contacts__descr {
+  padding-top: 6px;
+}
+.contacts__descr .divider {
+  margin: 0;
+}
+.contacts__title {
+  position: relative;
+  padding-left: 12px;
+  padding-top: 1px;
+}
+.contacts__title:before {
+  content: "";
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background: #3a9aba;
+  z-index: -1;
+  top: -25%;
+  left: 0;
+}
+.contacts__text, .contacts__social {
+  margin-top: 20px;
+}
+.contacts__link {
+  margin-right: 25px;
+}
+.contacts__link img {
+  max-width: 30px;
+  max-height: 30px;
+}
+.contacts__form {
+  margin-top: 30px;
+  display: grid;
+  grid-template: 45px 190px 45px/repeat(2, 280px);
+  justify-content: space-between;
+  row-gap: 30px;
+}
+.contacts__form label {
+  display: block;
+  position: absolute;
+  height: 18px;
+  padding: 0 8px;
+  background-color: #ffffff;
+  font-size: 12px;
+  margin-bottom: 0;
+  top: -9px;
+  left: 12px;
+}
+.contacts__input {
+  position: relative;
+}
+.contacts__input input {
+  width: 100%;
+  height: 100%;
+  padding: 0 20px;
+  font-size: 12px;
+}
+.contacts__textarea {
+  position: relative;
+  grid-column: 1/3;
+}
+.contacts__textarea textarea {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  padding: 20px;
+  font-size: 12px;
+}
+.contacts__btn {
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
 }
 
 * {
