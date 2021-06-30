@@ -1161,7 +1161,7 @@ template {
   }
 
   .price__wrapper {
-    grid-template-columns: repeat(auto-fit, 295px);
+    grid-template-columns: repeat(auto-fit, 300px);
   }
 
   .contacts {
@@ -1223,9 +1223,10 @@ template {
 
   .about__wrapper {
     grid-template: 310px auto auto/1fr;
+    grid-template-columns: repeat(auto-fit, 300px);
   }
   .about__skills {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, 300px);
   }
 
   .services__wrapper {
@@ -1248,6 +1249,7 @@ template {
   }
   .contacts__form {
     grid-template: 45px 45px 190px minmax(45px, auto)/1fr;
+    grid-template-columns: repeat(auto-fit, 300px);
   }
   .contacts__textarea {
     grid-column: unset;
@@ -1255,7 +1257,7 @@ template {
   }
   .contacts__triggers {
     grid-column: unset;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, 300px);
     column-gap: unset;
     row-gap: 20px;
   }
