@@ -1215,7 +1215,6 @@ template {
   }
 
   .promo {
-    background: url("../img/main_bg.jpg") no-repeat 57%/cover;
     width: fit-content;
   }
   .promo__btns {
