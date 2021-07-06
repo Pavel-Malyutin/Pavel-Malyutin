@@ -1115,6 +1115,7 @@ template {
   .container {
     width: 100%;
     padding: 0 10px;
+    max-width: 320px;
   }
 
   .title_fz48 {
@@ -1136,7 +1137,6 @@ template {
 
   .promo {
     background: url("../img/main_bg.jpg") no-repeat 57%/cover;
-    width: fit-content;
   }
   .promo__btns {
     margin-top: 30px;
@@ -1146,6 +1146,7 @@ template {
     grid-template: 340px auto auto/1fr;
   }
   .about__skills {
+    margin-top: 20px;
     grid-template-columns: 1fr;
   }
 

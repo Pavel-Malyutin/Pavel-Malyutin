@@ -219,6 +219,7 @@
   .container {
     width: 100%;
     padding: 0 10px;
+    max-width: 320px;
   }
   .title {
     &_fz48 {
@@ -240,7 +241,6 @@
   }
   .promo {
     background: url('../img/main_bg.jpg') no-repeat 57%/cover;
-    width: fit-content;
     &__btns {
       margin-top: 30px;
     }
@@ -250,6 +250,7 @@
       grid-template: 340px auto auto / 1fr;
     }
     &__skills {
+      margin-top: 20px;
       grid-template-columns: 1fr;
     }
   }
